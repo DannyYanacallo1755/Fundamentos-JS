@@ -1,10 +1,2 @@
-
-OBJETOS
-
-![image](/Imagen/Objetos.png)
-
-
-ARREGLOS
-
-![image](/Imagen/Arreglos.png)
-
+TALLER 5 - DOM y Asincronismo
+# INTRODUCCIÓN A JAVASCRIPT

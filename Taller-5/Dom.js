@@ -1,3 +1,5 @@
+//Danny Yanacallo
+
 document.addEventListener("DOMContentLoaded", function () {
     // Selección de elementos
     let porId = document.getElementById("miElemento");
@@ -32,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }, 2000);
     });
-
     // Utilizar la promesa
     promesa
         .then((resultado) => {
@@ -41,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch((error) => {
             console.error(error);
         });
-
     // Async/Await
     async function miFuncionAsincrona() {
         try {
@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("¡La operación asíncrona falló!", error);
         }
     }
-
     // Llamar a la función asíncrona
     miFuncionAsincrona();
 });
