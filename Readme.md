@@ -1,2 +1,3 @@
-TALLER 5 - DOM y Asincronismo
-# INTRODUCCIÓN A JAVASCRIPT
+# TALLER 6 - API - Local Storage y Módulos
+
+INTRODUCCIÓN A JAVASCRIPT

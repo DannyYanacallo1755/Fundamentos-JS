@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Taller-6/styles.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <div>
+        <input type="text" id="taskInput" placeholder="Agregar nueva tarea">
+        <button id="addTaskBtn">Agregar tarea</button>
+    </div>
+    <div>
+        <h2>Tareas Pendientes</h2>
+        <ul id="pendingTaskList"></ul>
+    </div>
+    <div>
+        <h2>Tareas Completadas</h2>
+        <ul id="completedTaskList"></ul>
+    </div>
+
+    <script type="module" src="taskManager.js"></script>
+</body>
+</html>
